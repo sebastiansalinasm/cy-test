@@ -1,0 +1,22 @@
+{
+  "name": "cy-enroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:video": "cypress run --record --key daab33a2-eba7-4c1c-9792-04dd4ca736b4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.1.4"
+  },
+  "devDependencies": {
+    "cucumber": "^5.0.3",
+    "cypress-cucumber-preprocessor": "^1.9.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
