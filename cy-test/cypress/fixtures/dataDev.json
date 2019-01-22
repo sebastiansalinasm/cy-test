@@ -1,0 +1,22 @@
+{
+    "development": {
+        "url": "http://localhost:3000/",
+        "names": "Sebastián Andrés",
+        "middleName": "Salinas",
+        "lastName": "Matus",
+        "rutUser": "180602534",
+        "serialNumber": "A321123321",
+        "email": "sebastiansalinas20@gmail.com",
+        "cellphone": 966600935
+    },
+    "testQa":{
+        "url": "http://localhost:3000/",
+        "names": "Yesenia Nazaret",
+        "middleName": "Morillo",
+        "lastName": "Carrizo",
+        "rutUser": "26555878K",
+        "serialNumber": "666555444",
+        "email": "yess992@gmail.com",
+        "cellphone": 949145504
+    }
+}
