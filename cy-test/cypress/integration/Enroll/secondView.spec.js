@@ -21,5 +21,17 @@ beforeEach(function () {
         cy.get('[id=phone]').type(data.cellphone)
         cy.get('[id=phonecopy]').type(data.cellphone)
         cy.get('[id=email]').type(data.email)
-        cy.get('[id=address]').type(data.address)
+        cy.get('[role=combobox]').type(data.address)
+
 })
+    Then('button continue is on', () => {
+        cy.get('[id=btn-continuar]').then(($btn_continue) => {
+            if($btn_continue[0].disabled) {
+                alert('coño mala mia')
+            } else {
+                $btn_continue.click()
+            }
+        })
+    })
+
+

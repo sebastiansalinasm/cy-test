@@ -1,0 +1,22 @@
+{
+    "homePage": {
+        "homeHeadertitle": "Hazte socio Coopeuch con Cuenta Vista",
+        "homeHeaderDescription": "Comienza el proceso completando los siguientes campos y declaraciones.",
+        "checkboxCtrl" : "Autorizo a Coopeuch a consultar fuentes externas para validar datos personales, laborales y económicos.",
+        "homeFooterDisclaimer": "* En caso de querer obtener los productos por separado, deberás dirigirte a una sucursal Coopeuch."
+    },
+    "cellphonePage": {
+        "hola": "hola"
+        
+    }
+
+
+
+
+
+
+
+
+
+
+}

@@ -9,6 +9,14 @@ Feature: Flujo enrolamiento Coopeuch
     Scenario: Completar los campos 
         Given to enter a "Datos Personales" page
         When fill phone and address forms
+        Then button continue is on
+    # Screen 3
+    Scenario: Información del Plan
+        Given to enter a "Información del Plan" page
+        When read the text
+        Then press continue button
+    
+    
         
 
 
