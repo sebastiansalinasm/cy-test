@@ -47,8 +47,8 @@ beforeEach(function () {
 })
     When('select external controllers', () => {
     // Revision de textos
-        cy.get('label[class="Checkbox-control Checkbox-control--checkbox"]').then(($CheckboxCtrl) => {
-            let checkbox = txtValidator($CheckboxCtrl, txt.checkboxCtrl)
+        cy.get('label[class="Checkbox-control Checkbox-control--checkbox"]').then(($checkboxCtrl) => {
+            let checkbox = txtValidator($checkboxCtrl, txt.checkboxCtrl)
         })
         cy.get('div[class="HomeQuestions-cards"]').then(() => {
             cy.get('label[for="fatcaNo"]').click()
@@ -61,11 +61,11 @@ beforeEach(function () {
             let footer = txtValidator($homeFooterDisclaimer, txt.homeFooterDisclaimer)
         })
 
-        cy.get('[id=btn-continuar]').then(($btn_continue) => {
-            if ($btn_continue[0].disabled) {
-                alert('coño mala mia, falta completar campos obligatorios')
+        cy.get('[id=btn-continuar]').then(($btnContinue) => {
+            if ($btnContinue[0].disabled) {
+                alert('Falta completar campos obligatorios')
             } else {
-                $btn_continue.click()
+                $btnContinue.click()
             }
     })
 })
